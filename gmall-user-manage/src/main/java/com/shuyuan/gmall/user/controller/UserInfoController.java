@@ -51,4 +51,6 @@ public class UserInfoController {
     public void delUser(UserInfo userInfo){
         userInfoService.delUser(userInfo);
     }
+
+
 }
