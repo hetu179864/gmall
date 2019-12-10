@@ -20,4 +20,5 @@ public class BaseAttrInfo implements Serializable {
     @Transient
     private List<BaseAttrValue>  attrValueList;
 
+
 }

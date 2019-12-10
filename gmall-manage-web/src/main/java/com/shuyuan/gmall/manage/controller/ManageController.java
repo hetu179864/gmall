@@ -3,10 +3,7 @@ package com.shuyuan.gmall.manage.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.shuyuan.gmall.bean.*;
 import com.shuyuan.gmall.service.ManageService;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -16,6 +13,9 @@ public class ManageController {
 
     @Reference
     private ManageService manageService;
+
+
+
 
     //获取一级分类
     @RequestMapping("getCatalog1")
